@@ -26,13 +26,23 @@
       </form>
     </div>
   
-    <div class="footer-social">
-      <a href="https://www.twitter.com/sportstechwest">
-        <li class="fab fa-twitter-square fa-2x"></li>
-      </a>
-      <a href="https://github.com/rashadwest">
-        <li class="fab fa-github-square fa-2x"></li>
-      </a>
+    <div class="footer-nav">
+      <div class="footer-header_nav">
+            <!-- Toggle menu -->
+            {% for nav-links in site.data.menu %}
+              <ul>
+                <li><a href="{{nav-links.url | relative_url}}">{{nav-links.title}}</a></li>
+              </ul>
+            {% endfor %}
+      </div>
+      <div class="footer-social">
+        <a href="https://www.twitter.com/sportstechwest">
+          <li class="fab fa-twitter"></li>
+        </a>
+        <a href="https://github.com/rashadwest">
+          <li class="fab fa-github"></li>
+        </a>
+      </div>
     </div>
   
     <div class="footer-bottom">
@@ -55,4 +65,3 @@
       </ul>
     </div>
   </footer>
-  

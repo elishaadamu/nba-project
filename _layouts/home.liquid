@@ -31,12 +31,9 @@ layout: default
         </div>
         <div class="swiffy-slider slider-nav-autoplay slider-item-ratio slider-item-ratio-16x9 slider-nav-animation slider-nav-animation-fadein" data-slider-nav-autoplay-interval="7000" id="swiffy-animation">
             <ul class="slider-container" id="container1">
-                <li id="slide1" class=""><img src="assets/img/portfolio/cabin.png" alt="..." loading="lazy"></li>
-                <li id="slide2" class="slide-visible"><img src="assets/img/portfolio/cake.png" alt="..." loading="lazy"></li>
-                <li id="slide3"><img src="assets/img/portfolio/game.png" alt="..." loading="lazy"></li>
-                <li id="slide4"><img src="assets/img/portfolio/circus.png" alt="..." loading="lazy"></li>
-                <li id="slide5"><img src="assets/img/portfolio/ninja.png" alt="..." loading="lazy"></li>
-                <li id="slide6"><img src="assets/img/portfolio/github.png" alt="..." loading="lazy"></li>
+                {% for sliderShow in site.data.slide-show %}
+                    <li id="slide1" class=""><img src="{{ sliderShow.image | relative_url }}" alt="{{silderShow.title}}" loading="lazy"></li>
+                {% endfor %}
             </ul>
         
             <button type="button" class="slider-nav" aria-label="Go to previous"></button>

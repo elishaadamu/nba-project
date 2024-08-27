@@ -11,6 +11,14 @@
     color: #fff;
     padding: 40px 20px;
   }
+  a#pull {
+    display: contents !important;
+}
+nav li {
+  font-size: 1.5em !important;
+  text-align: left !important;
+  margin-left: 10% !important;
+}
   .text-content {
     max-width: 100% !important;
     margin-bottom: 15%;
@@ -18,13 +26,64 @@
   .subscribe-form button {
     margin-top: 15px;
   }
+  .subscribe-form button:hover {
+    color: var(--link);
+  }
+  .newsletter-form-footer button {
+    margin-top: 20px !important;
+  }
+  .footer-bottom ul li:nth-child(1) {
+    margin-left: 0 !important;
+  }
+  .footer-bottom ul li:nth-child(2) {
+    margin-left: 20px;
+  }
+  .newsletter {
+    padding: 20px 0;
+    border: 1px solid #fff;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  .footer-nav {
+    margin: 40px 20px 40px 0px !important;
+    display: flex;
+    flex-direction: row !important;
+    align-items: space-around !important;
+  }
+  .footer-nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    margin-bottom: 20px !important;
+  }
+  
+  .footer-header_nav{
+    display: flex;
+    flex-direction: column !important;
+    justify-content: left;
+  }
+
+  .footer-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  .footer-social{
+    font-size: 20px;
+  }
+  .fa-twitter{
+    margin-left: 0px;
+  }
+  .fa-github{
+    margin-left: 5px;
+  }
 }
 
 .main-content {
   display: flex;
   justify-content: space-between;
-  background-color: #000;
-  color: #fff;
+  background-color: var(--background-footer);
+  color: var(--color-footer);
   padding: 40px 20px;
 }
 
@@ -63,11 +122,16 @@
   cursor: pointer;
   border-radius: 0 2px 2px 0;
 }
+.subscribe-form button:hover {
+  color: var(--link);
+}
 
 .post-link{
   font-size: 35px !important;
 }
-
+.posts .post-teaser {
+  border-bottom: 1px solid rgba(0, 0, 0, .3) !important;
+}
 header> .main{
   background-size: contain !important;
 }
@@ -76,6 +140,9 @@ header> .main{
   .footer {
     background-color: var(--background-footer) !important;
     color: var(--color-footer) !important;
+  }
+  .posts .post-teaser {
+    border-bottom: 1px solid rgba(0, 0, 0, .5) !important;
   }
 }
 
@@ -88,9 +155,10 @@ header> .main{
   }
   
   .newsletter {
-    padding: 20px 0;
+    padding: 60px 0;
     border: 1px solid #fff;
     margin-bottom: 20px;
+    border-radius: 10px;
   }
   
   .newsletter p {
@@ -140,9 +208,12 @@ header> .main{
   .footer-nav ul {
     list-style-type: none;
     padding: 0;
-    display: flex;
-    justify-content: center;
     margin-bottom: 20px;
+  }
+  .footer-header_nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
   }
   
   .footer-nav ul li {
@@ -152,24 +223,37 @@ header> .main{
   .footer-nav ul li a {
     color: #fff;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 20px;
   }
   
-  .footer-social {
-    margin-bottom: 20px;
+  .footer-nav {
+    margin: 40px 0px 40px 0px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    gap: 50px;
+    justify-content: space-between;
   }
-  
-  .footer-social a img {
+  .navbar-footer_links{
+    font-size: 20px;
+  }
+  .footer-social{
+    font-size: 25px;
+  }
+  .fa-twitter{
+    margin-left: 0px;
+  }
+  .fa-github{
+    margin-left: 25px;
+  }
+  .footer-nav a img {
     width: 24px;
     margin: 0 10px;
   }
+  .footer a {
+    color: var(--link-constant);
+  }
   
   .footer-bottom {
-    border-top: 1px solid #333;
+    border-top: 2px solid var(--link-constant);
     padding-top: 10px;
     display: flex;
     justify-content: space-between;
@@ -188,6 +272,9 @@ header> .main{
   
   .footer-bottom p {
     margin: 0;
+  }
+  .footer-bottom a {
+    margin-left: 20px;
   }
   
   .footer-bottom ul {

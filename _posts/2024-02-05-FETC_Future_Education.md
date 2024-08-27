@@ -5,7 +5,6 @@ title: "FETC Future Education"
 
 # FETC_Future_of_Education_Tech_Conference 
 
-
 Attending the Future of Education Technology Conference (FETC) and showcasing our innovative BTE BallCODE game was an exhilarating experience. This game uniquely combines analytics with coding in a gaming format, making learning accessible and engaging for everyone. Beyond our contribution, it was invigorating to witness a range of pioneering educational technologies.
 
 One of the standout moments for me was seeing Kai XR's presence at the conference. It was particularly heartening because a friend of mine has been dedicating immense effort in the educational space through Kai XR. Their work, much like ours, aims to transform traditional learning paradigms by leveraging cutting-edge technology to create immersive, interactive educational experiences. The conference was a testament to the vibrant future of educational technology, where tools like ours and Kai XR's play pivotal roles in shaping innovative learning environments.

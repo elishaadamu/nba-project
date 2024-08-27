@@ -29,11 +29,14 @@ $x-sm-break: 320px;
 
 /* THEME COLOR SCHEMES */
 html, html[data-theme="light"] {
+  --background-footer: #15181c;
+  --color-footer: #ffffff;
   --background: #ffffff;
   --blockquote: #eef7fa;
   --selection: #d4d4d4;
   --meta: #595959;
   --link: #242526;
+  --link-constant: #dedede;
   --header-background: #24292e;
   --header-text: #ffffff;
   --header-link: #383838;
