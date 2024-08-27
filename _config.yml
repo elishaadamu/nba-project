@@ -6,7 +6,7 @@ url: ""
 title: NBA Project                                   # site's title
 description: "This blog is about a NBA Project that Rashad West started to enhance his youth programs STEAM game where they use basketball to teach mathematics."      # used by search engines
 avatar: assets/img/logo/triangle.png                        # Empty for no avatar in navbar
-favicon: assets/img/logo/favicon.png                             # Icon displayed in the tab
+favicon: assets/img/logo/favicon.ico                             # Icon displayed in the tab
 
 # Header and footer text
 header_text: Change <code>header_text</code> in <code>_config.yml</code>  # Change Blog header text
