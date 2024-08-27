@@ -1,9 +1,7 @@
 ---
 layout: page
 title: Analytics Culture
-subtitle: From the pexels folder
 permalink: /analytics-culture
-gallery_path: "assets/img/pexels"
 excluded: true
 tags: [culture]
 ---
