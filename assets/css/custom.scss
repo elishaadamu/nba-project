@@ -19,7 +19,7 @@ html{
     display: contents !important;
 }
 nav li {
-  font-size: 1.5em !important;
+  font-size: 1em !important;
   text-align: left !important;
   margin-left: 10% !important;
 }
@@ -37,7 +37,7 @@ nav li {
     margin-top: 20px !important;
   }
   .footer-bottom ul li:nth-child(1) {
-    margin-left: 0 !important;
+    margin-left:-20px !important;
   }
   .footer-bottom ul li:nth-child(2) {
     margin-left: 20px;
