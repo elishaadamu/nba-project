@@ -8,6 +8,17 @@ html{
   scroll-behavior: smooth;
 }
 @media screen and (max-width: 768px) {
+  .site-header img.avatar {
+    margin-top: -3px !important;
+    width: 90px !important;
+    height: auto !important;
+    margin-top: auto;
+}
+.site-header .site-title {
+  margin-top: 7px;
+  font-size: 20px;
+  margin-left: -12px;
+}
   .main-content {
     display: flex;
     flex-direction: column !important;
