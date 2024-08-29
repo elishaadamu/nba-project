@@ -8,13 +8,6 @@ description: "This blog is about a NBA Project that Rashad West started to enhan
 avatar: assets/img/logo/logo.png                        # Empty for no avatar in navbar
 favicon: assets/img/logo/favicon.png                           # Icon displayed in the tab
 
-# Header and footer text
-header_text: Change <code>header_text</code> in <code>_config.yml</code>  # Change Blog header text
-header_feature_image: assets/img/header/triangular.jpeg
-header_feature_image_responsive: true
-footer_text: >
-  Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
-
 # Blog
 excerpt: true                                           # Or "truncate" (first 250 characters), "false" to disable
 post_navigation: true
@@ -62,11 +55,3 @@ defaults:
       type: "posts"
     values:
       layout: "post" # Use your specific layout name here
-
-markdown: kramdown
-highlighter: commonmarker
-
-plugins:
-  - jekyll-paginate
-  - jekyll-seo-tag
-  - jekyll-feed
