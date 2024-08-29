@@ -7,7 +7,7 @@ title: "NBA Data Ideation"
 ## Still looking for x,y coordinates
 
 FGA for Lillard, Damian during GSW vs POR - 01/20/2020
-![alt text](shotchart.png)
+![alt text]({{ site.url }}{{ site.baseurl }}/assets/img/blog-img/shotchart.png)
 
 
 I was unable to find the x,y coordinates.  This is important for me and what I am looking to do.  I reached out to the NBA advanced analytics team with this email to

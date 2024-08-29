@@ -11,7 +11,7 @@ He leaned completely on the data. Data and analytics will revolutionize sports i
 
 It shows her vitals, including height, weight, etc like most platforms. It goes into more details as it talks about the quality of her game, including short passes, long passes, tackles, interceptions, etc. This is all great, but what is interesting is it shows player potential. 
 
-![TransferLab: Lauren Hemp ‘Centre-Back All Around’](https://github.com/rashadwest/rashadwest.github.io/blob/master/Lauren%20Hemp.png?raw=true)
+![TransferLab: Lauren Hemp ‘Centre-Back All Around’]({{ site.url }}{{ site.baseurl }}/assets/img/blog-img/Lauren%20Hemp.png?raw=true)
 
 We think we are doing something similar to our platform. If players want to see their value, they can come to us. I would not suggest they get rid of their agent because a bunch of players are not business savvy and need to focus on their craft. I think the time is coming where every player is going to hire an analytic company to show their value. 
 
