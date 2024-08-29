@@ -7,8 +7,8 @@
 			<img alt="logo img" class="avatar" src="{{ site.avatar | relative_url }}" loading="lazy"/>
 		</a>
         {% endif %}
-        <a class="site-title" aria-label="{{ site.title }}" href="{{ '/' | relative_url }}">
-        {{ site.title }}
+        {% comment %} <a class="site-title" aria-label="{{ site.title }}" href="{{ '/' | relative_url }}">
+        {{ site.title }} {% endcomment %}
 		</a>
 	</div>
 
@@ -42,10 +42,10 @@
             <li><a href="{{site.url}}{{site.baseurl}}/search"><i class="fas fa-search"></i></a></li>
             {% endif %}
 
-        {% if site.color_theme == 'auto' %}
+        {% comment %} {% if site.color_theme == 'auto' %}
         <li class="separator"> | </li>
         <li><a id="theme-toggle" title="{{ page.title }} " aria-label="{{ page.title }}" onclick="themeToggle()"></a></li>
-        {% endif %}
+        {% endif %} {% endcomment %}
     </ul>
 
 	</nav>

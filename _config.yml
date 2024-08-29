@@ -62,3 +62,11 @@ defaults:
       type: "posts"
     values:
       layout: "post" # Use your specific layout name here
+
+markdown: kramdown
+highlighter: commonmarker
+
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-feed
