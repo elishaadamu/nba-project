@@ -15,7 +15,7 @@ To update the featured image carousel on the homepage:
      1. Upload the new image to the `assets/img/feature-img` directory.
      2. Update the image title and extension in the `data/slide-show.yml` file.
 
-![Featured Image Tutorial](featured-image-tutorial.png)
+![Featured Image Tutorial]({{site.url}}{{site.baseurl}}/featured-image-tutorial.png)
 
 ---
 
@@ -41,7 +41,7 @@ To edit the "Terms of Service" and "Privacy Policy" documents:
 - **Locate the Files**:
   - Path: `pages`
 
-![Terms and Privacy Policy](terms-and-privacy.png)
+![Terms and Privacy Policy]({{site.url}}{{site.baseurl}}/terms-and-privacy.png)
 
 ---
 
