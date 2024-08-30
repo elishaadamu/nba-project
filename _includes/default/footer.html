@@ -36,12 +36,14 @@
             {% endfor %}
       </div>
       <div class="footer-social">
-        <a href="https://www.twitter.com/sportstechwest">
-          <li class="fab fa-twitter"></li>
+
+        {% for symbol in site.data.social-icons %}        
+        <a href="{{symbol.url}}">
+          <li class="fab {{symbol.icon}}"></li>
         </a>
-        <a href="https://github.com/rashadwest">
-          <li class="fab fa-github"></li>
+        
         </a>
+        {% endfor %}
       </div>
     </div>
   
